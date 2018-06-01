@@ -11,7 +11,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 /*
  * ANOTAÇÕES ABAIXO SÃO NECESSÁRIAS EM CASOS QUE AS CLASSES DE REPOSITORY, ENTITY E CONTROLLER NÃO ESTEJAM NO MESMO PACOTE, OU PACOTE FILHOS DO ARQUIVO DE CONFIGURAÇÃO. 
  * NESSE CASO, SE O PACOTE DA CLASSE CONFIGURACAO FOSSE br.com.home.listavip, SEM O config, NÃO SERIAM NECESSÁRIAS AS ANOTAÇÕES, POIS A ANOTAÇÃO @SpringBootApplication JÁ CUIDARIA DISSO.
- *
  */ 
 @EnableJpaRepositories("br.com.home.listavip.repository")
 @EntityScan("br.com.home.listavip.model")
